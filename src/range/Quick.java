@@ -45,8 +45,6 @@ public class Quick {
 
             System.out.println("init j " + j + " i " + i);
             // 基准值的下标
-            int k = begin;
-
             while (i < j) {
                 // 从右往左找第一个比key小的数字
                 while (arr[j] >= key && i < j) {
